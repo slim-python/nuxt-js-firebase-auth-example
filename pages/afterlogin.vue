@@ -1,7 +1,15 @@
 <template>
-  <div class="h-screen w-full bg-indigo-700">
-    <p class="text-4xl text-center px-4 py-48 text-white" >You have sucessfully logged in</p>
-    <p class="text-xl text-center   text-white bg-gray-900 p-8"><NuxtLink to="/" class="text-center ">Go to home</NuxtLink></p>
-
+  <div>
+    <div class="flex flex-col items-center justify-center h-screen">
+      <div class="p-4">
+        <div  class="text-center ">You have sucessfully Logged in</div>
+      </div>
+      <div class="bg-green-600 text-white rounded-full py-3 px-6 shadow-lg">
+        <NuxtLink to="/" class="text-center">Go to home</NuxtLink>
+      </div>
+    </div>
   </div>
 </template>
+
+
+
